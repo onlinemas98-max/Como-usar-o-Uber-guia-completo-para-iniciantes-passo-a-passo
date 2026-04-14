@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia do Passageiro | Tudo sobre Uber</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .uber-gradient {
+            background: linear-gradient(135deg, #000000 0%, #2d2d2d 100%);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Cabeçalho de Navegação -->
+    <header class="bg-black text-white sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 font-bold text-xl tracking-tighter">
+                    GUIA<span class="text-blue-500">UBER</span>
+                </div>
+                <!-- Menu Desktop -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4 text-sm font-medium">
+                        <a href="guia-iniciantes.html" class="hover:text-blue-400 px-3 py-2">Iniciantes</a>
+                        <a href="pedir-corrida.html" class="hover:text-blue-400 px-3 py-2">Pedir</a>
+                        <a href="economizar-no-uber.html" class="hover:text-blue-400 px-3 py-2">Economizar</a>
+                        <a href="dicas-de-seguranca.html" class="hover:text-blue-400 px-3 py-2">Segurança</a>
+                        <a href="contato.html" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="uber-gradient text-white py-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Como usar o Uber: guia completo para iniciantes passo a passo.</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10">
+                Aprenda como usar o Uber passo a passo, criar conta, pedir corrida e economizar com segurança. Guia completo para iniciantes no aplicativo.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="guia-iniciantes.html" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-200 transition">Começar por aqui</a>
+                <a href="dicas-de-seguranca.html" class="border border-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-black transition">Dicas de Segurança</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid de Conteúdo principal -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 class="text-3xl font-bold mb-12 text-center">O que você deseja aprender hoje?</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Card 1: Como Funciona -->
+            <a href="como-funciona.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 text-2xl">📱</div>
+                    <h3 class="text-xl font-bold mb-2">Como Funciona</h3>
+                    <p class="text-gray-600">Entenda o sistema de chamadas, GPS e a dinâmica entre passageiro e motorista.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Ler mais &rarr;</span>
+            </a>
+
+            <!-- Card 2: Tipos de Uber -->
+            <a href="tipos-de-uber.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6 text-2xl">🚗</div>
+                    <h3 class="text-xl font-bold mb-2">Tipos de Uber</h3>
+                    <p class="text-gray-600">X, Comfort, Black ou Moto? Saiba qual categoria escolher para cada momento.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Ver categorias &rarr;</span>
+            </a>
+
+            <!-- Card 3: Formas de Pagamento -->
+            <a href="formas-de-pagamento.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-6 text-2xl">💳</div>
+                    <h3 class="text-xl font-bold mb-2">Pagamentos</h3>
+                    <p class="text-gray-600">Configuração de cartões, Pix, dinheiro e como evitar cobranças indevidas.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Ver opções &rarr;</span>
+            </a>
+
+            <!-- Card 4: Economizar -->
+            <a href="economizar-no-uber.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-lg flex items-center justify-center mb-6 text-2xl">💰</div>
+                    <h3 class="text-xl font-bold mb-2">Economizar</h3>
+                    <p class="text-gray-600">Dicas práticas para fugir do preço dinâmico e usar cupons de desconto.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Dicas de economia &rarr;</span>
+            </a>
+
+            <!-- Card 5: Problemas Comuns -->
+            <a href="problemas-comuns.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-lg flex items-center justify-center mb-6 text-2xl">❓</div>
+                    <h3 class="text-xl font-bold mb-2">Problemas Comuns</h3>
+                    <p class="text-gray-600">Objetos esquecidos, reporte de má conduta e como solicitar reembolsos.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Resolver problemas &rarr;</span>
+            </a>
+
+            <!-- Card 6: Pedir Corrida -->
+            <a href="pedir-corrida.html" class="card-hover bg-white p-8 rounded-2xl border border-gray-100 flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-gray-100 text-gray-600 rounded-lg flex items-center justify-center mb-6 text-2xl">📍</div>
+                    <h3 class="text-xl font-bold mb-2">Pedir Corrida</h3>
+                    <p class="text-gray-600">Tutorial passo a passo do básico ao avançado para pedir sua viagem sem erro.</p>
+                </div>
+                <span class="text-blue-600 font-semibold mt-4 block">Ver tutorial &rarr;</span>
+            </a>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-100 border-t border-gray-200 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-8 text-sm text-gray-600">
+                <a href="index.html" class="hover:text-black">Home</a>
+                <a href="guia-iniciantes.html" class="hover:text-black">Guia</a>
+                <a href="dicas-de-seguranca.html" class="hover:text-black">Segurança</a>
+                <a href="contato.html" class="hover:text-black">Contato</a>
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; 2026 Guia do Passageiro. Este site não é afiliado à Uber Technologies Inc.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
